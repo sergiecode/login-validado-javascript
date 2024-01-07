@@ -87,7 +87,17 @@ document.addEventListener('DOMContentLoaded', function () {
     function saveToLocalStorage() {
         const emailValue = emailInput.value.trim();
         localStorage.setItem('email', emailValue);
+        const body = bodyBuilderJSON()
+        console.log('JSON listo para enviar', body)
+    }
 
+    function bodyBuilderJSON() {
+        
+        return {
+            "email": emailInput.value,
+            "password": passwordInput.value 
+        }
+        
     }
 });
 
