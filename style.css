@@ -32,7 +32,7 @@ input[type="submit"] {
     background-color: #4caf50;
     color: white;
     cursor: pointer;
-    transition: all .5 ease;
+    transition: all .5s ease;
 }
 
 input[type="submit"]:hover {
@@ -53,9 +53,10 @@ input[type="submit"]:hover {
     font-size: 14px;
     color: #666;
     cursor: pointer;
-    transition: all .5 ease;
+    border-bottom: 1px solid transparent;
+    transition: all .5s ease;
 }
 
 #show-hide:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid rgb(148, 145, 145);
 }
