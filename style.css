@@ -32,6 +32,11 @@ input[type="submit"] {
     background-color: #4caf50;
     color: white;
     cursor: pointer;
+    transition: all .5 ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #419244;
 }
 
 .error-message {
@@ -48,9 +53,9 @@ input[type="submit"] {
     font-size: 14px;
     color: #666;
     cursor: pointer;
+    transition: all .5 ease;
 }
 
-/* Agrega este estilo para resaltar el texto del span al pasar el ratón sobre él */
 #show-hide:hover {
     text-decoration: underline;
 }
