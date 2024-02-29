@@ -1,6 +1,6 @@
 # Login validado con JavaScript
 
-Este repositorio contiene una aplicación de login la cual tiene validaciones y está realizada en HTML, CSS y JS parte del curso **Certified Tech Developer** de **DIGITAL HOUSE**
+Este repositorio contiene una aplicación de login la cual tiene validaciones y está realizada en HTML, CSS y JS parte del curso **Certified Tech Developer** de **DIGITAL HOUSE** por Sergie Code
 
 ## Uso
 
